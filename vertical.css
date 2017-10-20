@@ -1,0 +1,52 @@
+/*color laboratoria --> #f9a91a-
+color de fondo-->#d7dde5
+color hover-->#b1b9c6
+color de active-->#4f5154
+font family:sans serif*/
+body{
+	font-family: sans-serif;
+}
+.lista{
+	/*outline: 1px solid yellow;*/
+	list-style: none;/*quita las viñetas*/
+	margin:0;/*quitarles los efectos que ya tienen*/
+	padding:0;
+	width: 200px;
+	line-height: 30px;/*espaciado entre cada elemento*/
+}
+nav{
+	/*outline: 1px,solid red;*/
+	width: 200px;
+}
+.item{
+	/*outline:1px solid red;*/
+	background:#d7dde5; 
+}
+/*estados de los enlaces:LoVe/HAte Link,Visited, Hover, Active*/
+a{
+	/*outline: 1px solid green;
+	width: 160px;
+	height: 20px;*/
+	display: block;
+	text-decoration:none;
+	color: #000;
+	padding-left: 16px; 
+}
+a:hover{
+	background: #b1b9c6;
+}
+a:active{
+	background: #4f5154;
+	color:#fff;
+}
+.lista .item:first-child {
+	background: #f9a91a;
+}
+.lista .item:first-child a{
+	color: #fff;
+}
+.lista .item:first-child a:hover{
+	color: #000;
+}
+.lista .item:first-child a:active{
+	color: #fff;

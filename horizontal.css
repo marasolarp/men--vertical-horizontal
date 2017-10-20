@@ -1,0 +1,42 @@
+/* color de fondo #2e2e2a
+color de hover #f9a91a 
+#000
+#fff*/
+body{
+	font-family: sans-serif;
+;
+}
+
+nav{
+/*outline: 1px solid yellow*/
+}
+
+ul{
+	/*outline: 1px solid blue;*/
+	list-style: none;/*quito la viñeta*/)
+	padding:0;
+	margin: 0; 
+	background: #2e2e2a;
+	line-height: 40px;
+	overflow: auto;/*devuelve su contexto de bloque*/
+	
+}
+
+li{
+	/*outline: 1px solid red;*/
+	width: 100px;
+	text-align: center;
+	/*display: inline-block;*/
+	float: left;
+}
+
+a{
+	/*outline: 1px solid green;*/
+	text-decoration: none;
+	color: #fff;
+	display: block;/*el espacio que la contiene(padre)*/
+}
+a:hover  {
+	background: #f9a91a;
+	color:#000;
+}
